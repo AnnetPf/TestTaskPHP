@@ -13,7 +13,7 @@ echo '<script type="text/javascript" src="libs/jquery.js"></script>';
 echo '<script type="text/javascript" src="libs/jquery.tablesorter.js"></script>';
 echo '<script type="text/javascript" src="script.js"></script>';
 
-$rows = 500; // Numerical rangeю
+$rows = 500; // Numerical range.
 
 // Start to create table...
 $table = '<table border="1">';
@@ -53,7 +53,7 @@ foreach ($randomArray as $val) {
 		$numClass = "Fizz";
 	}
 
-	// Render rows. Firs - with numbers...
+	// Render rows. First - with numbers...
 	$table .= '<td class=' .$tdClass .'>' .$val .'</td>';
 	// ...second - width definition.
 	$table .= '<td>' .$numClass .'</td>';
