@@ -10,6 +10,12 @@ tr:nth-child(odd) {
 	color:red;
 }
 
+/* Setting fot even rows. */
+tr:nth-child(even) {
+	background: red;
+	color:#fff;
+}
+
 table {
 	height: 100%;
     width: 100%;
