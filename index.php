@@ -93,6 +93,10 @@ for ($tr=1; $tr<=$rows; $tr++) {
 				$numClass = $dozensOf[$arr1[0]] .' ' .$units[$arr1[1]] .' thousand and ' .$oneDozensOf[$arr1[3] .$arr1[4]];
 			}
 		}
+		// 1 - fourth number.
+		if ($arr1[3] == '1') {
+			$numClass = $dozensOf[$arr1[0]] .' ' .$units[$arr1[1]] .' thousand ' .$units[$arr1[2]] .' hundred and ' .$oneDozensOf[$arr1[3] .$arr1[4]];
+		}
 
 		// 1 - first number.
 		if ($arr1[0] == '1') {
